@@ -1,0 +1,103 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/**.md",
+          "**/**.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE", 
+          "ThirdPartyNotices",
+          "help-crr/archive/**",
+          "help-crr/help-content/index.md",
+          "help-crr/help-content/contribute/TOC.md",
+          "help-crr/help-content/contribute/index.md",             
+          "help-crr/help-content/contribute/training/**",
+          "help-crr/help-content/contribute/contribute-get-started-channel-guidance.md",
+          "help-crr/help-content/contribute/contribute-get-started-setup-acrolinx-vscode.md",
+          "help-crr/help-content/contribute/contribute-how-to-manage-data-other.md",
+          "help-crr/help-content/contribute/contribute-how-to-manage-customer-focused-review.md",
+          "help-crr/help-content/contribute/contribute-how-to-write-accessibility.md",
+          "help-crr/help-content/contribute/contribute-how-to-write-advanced-git-tricks.md",
+          "help-crr/help-content/contribute/contribute-how-to-write-art.md",
+          "help-crr/help-content/contribute/contribute-how-to-write-metadata.md",
+          "help-crr/help-content/contribute/contribute-how-to-write-retire-or-rename-an-article.md",
+          "help-crr/help-content/contribute/contribute-how-to-write-seo-basics.md",
+          "help-crr/help-content/contribute/contribute-resources.md",
+          "help-crr/help-content/contribute-ref/**", 
+          "help-crr/help-content/style/TOC.md",
+          "help-crr/help-content/style/index.md",
+          "help-crr/help-content/style/style-get-started.md",
+          "help-crr/help-content/style/style-how-to-accessibility.md",
+          "help-crr/help-content/style/style-how-to-accessibility-top-articles.md",
+          "help-crr/help-content/style/style-how-to-alt-text.md",
+          "help-crr/help-content/style/style-how-to-visuals-static-art-types.md",
+          "help-crr/help-content/style/style-how-to-visuals-static-art-images-graphics-diagrams.md",
+          "help-crr/help-content/style/style-how-to-visuals-video-all-types.md",
+          "help-crr/help-content/style/style-how-to-voice.md",          
+          "help-crr/help-content/style/style-how-to-voice-job-aid.md",
+          "help-crr/help-content/style/style-how-to-voice-principles.md",
+          "help-crr/help-content/style/style-how-to-voice-self-paced-training.md",
+          "help-crr/help-content/style/style-overview-intended-audiences.md",
+          "help-crr/help-content/style/style-resources.md",
+          "help-crr/help-content/style/style-resources-references.md",
+          "help-crr/help-content/onboard/**",
+          "help-crr/help-content/onboard/TOC.md",
+          "help-crr/help-content/onboard/index.md",
+          "ops-crr/README.md",
+          "ops-crr/SRE/**",    
+          "ops-crr/openpublishing/docs/TOC.md",
+          "ops-crr/openpublishing/docs/breadcrumb/**",              
+          "ops-crr/openpublishing/docs/engdocs/**",          
+          "ops-crr/openpublishing/docs/release-notes/**",
+          "ops-crr/openpublishing/docs/livesiteupdates/**",
+          "ops-crr/openpublishing/docs/partnerdocs/metadata.md",  
+          "ops-crr/openpublishing/docs/partnerdocs/publish.md",          
+          "ops-crr/openpublishing/docs/partnerdocs/publish-configuration.md",          
+          "ops-crr/openpublishing/docs/specdocs/**",
+          "ops-crr/openpublishing/docs/gauntletdocs/**",
+          "ops-crr/openpublishing/servicedelivery/**"
+
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.pdf",
+          "**/*.pptx"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "help-crr/archive/**",
+          "help-crr/help-content/contribute-ref/**", 
+          "ops-crr/SRE/**",    
+          "ops-crr/openpublishing/docs/breadcrumb/**",              
+          "ops-crr/openpublishing/docs/engdocs/**",          
+          "ops-crr/openpublishing/docs/release-notes/**",
+          "ops-crr/openpublishing/servicedelivery/**",
+          "ops-crr/openpublishing/docs/livesiteupdates/**",
+          "ops-crr/openpublishing/docs/specdocs/**",
+          "ops-crr/openpublishing/docs/gauntletdocs/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "breadcrumb_path": "~/breadcrumb/toc.yml"
+    },
+    "fileMetadata": {},
+    "template": [],
+    "dest": "contribute"
+  }
+}
