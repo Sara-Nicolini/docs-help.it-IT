@@ -40,13 +40,13 @@
     },
     {
       "path_to_root": "help-content/help-crr",
-      "url": "https://github.com/MicrosoftDocs/docs-help-pr",
+      "url": "https://github.com/MicrosoftDocs/docs-help-pr.it-it",
       "branch": "master",
       "branch_mapping": {}
     },
     {
       "path_to_root": "help-content/ops-crr",
-      "url": "https://github.com/MicrosoftDocs/openpublishing-docs",
+      "url": "https://github.com/MicrosoftDocs/openpublishing-docs.it-it",
       "branch": "master",
       "branch_mapping": {}
     },
